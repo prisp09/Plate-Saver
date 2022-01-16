@@ -68,9 +68,12 @@
 
     <Button
         android:id="@+id/rest_Enter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_width="213dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#000000"
+        android:foregroundTint="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="50dp"
         android:text="Enter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

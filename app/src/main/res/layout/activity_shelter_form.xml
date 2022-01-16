@@ -148,9 +148,12 @@
 
     <Button
         android:id="@+id/Request"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_width="213dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#000000"
+        android:foregroundTint="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="50dp"
         android:text="Request"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

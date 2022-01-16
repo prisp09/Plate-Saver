@@ -14,11 +14,12 @@
         android:layout_height="82dp"
         android:backgroundTint="#000000"
         android:foregroundTint="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="50dp"
         android:freezesText="false"
         android:text="@string/facilitator"
         android:textColorHighlight="#FFFFFF"
-        android:textStyle="bold"
-        app:cornerRadius="50dp"
+
 
         app:iconTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
