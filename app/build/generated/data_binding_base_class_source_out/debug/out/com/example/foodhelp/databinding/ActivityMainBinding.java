@@ -4,20 +4,32 @@ package com.example.foodhelp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.foodhelp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final Button Shelter;
+
+  @NonNull
+  public final Button facilitator;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button Shelter,
+      @NonNull Button facilitator) {
     this.rootView = rootView;
+    this.Shelter = Shelter;
+    this.facilitator = facilitator;
   }
 
   @Override
@@ -43,10 +55,25 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public static ActivityMainBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.Shelter;
+      Button Shelter = ViewBindings.findChildViewById(rootView, id);
+      if (Shelter == null) {
+        break missingId;
+      }
 
-    return new ActivityMainBinding((ConstraintLayout) rootView);
+      id = R.id.facilitator;
+      Button facilitator = ViewBindings.findChildViewById(rootView, id);
+      if (facilitator == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, Shelter, facilitator);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

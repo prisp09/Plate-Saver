@@ -4,16 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login__form">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/login_form"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context=".activity_login_form">
 
     <TextView
         android:id="@+id/email"
@@ -54,9 +45,11 @@
         android:layout_marginEnd="48dp"
         android:ems="10"
         android:inputType="textEmailAddress"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/email"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/editTextTextPassword3"
@@ -65,8 +58,10 @@
         android:layout_marginTop="48dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.252"
         app:layout_constraintStart_toEndOf="@+id/password"
-        app:layout_constraintTop_toBottomOf="@+id/enter_email" />
+        app:layout_constraintTop_toBottomOf="@+id/enter_email"
+        tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

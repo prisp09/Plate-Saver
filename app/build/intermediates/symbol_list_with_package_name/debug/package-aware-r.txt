@@ -1751,7 +1751,6 @@ drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
-id Admin
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
@@ -2181,8 +2180,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
-id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2292,7 +2289,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_front
 layout activity_login_form
 layout activity_login_reg
 layout activity_main

@@ -61,17 +61,13 @@ public final class ActivityRegisterationFormBinding implements ViewBinding {
   @NonNull
   public final TextInputLayout textInputLayout2;
 
-  @NonNull
-  public final TextView textView2;
-
   private ActivityRegisterationFormBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView OrgName, @NonNull EditText PasswordConfig,
       @NonNull TextView PasswordConfigText, @NonNull TextView address,
       @NonNull EditText editTextNumberSigned, @NonNull EditText editTextTextEmailAddress2,
       @NonNull EditText editTextTextPassword2, @NonNull TextView emalReg,
       @NonNull Button enterRegform, @NonNull TextView passwordReg, @NonNull TextView phoneNum,
-      @NonNull TextInputLayout textInputLayout, @NonNull TextInputLayout textInputLayout2,
-      @NonNull TextView textView2) {
+      @NonNull TextInputLayout textInputLayout, @NonNull TextInputLayout textInputLayout2) {
     this.rootView = rootView;
     this.OrgName = OrgName;
     this.PasswordConfig = PasswordConfig;
@@ -86,7 +82,6 @@ public final class ActivityRegisterationFormBinding implements ViewBinding {
     this.phoneNum = phoneNum;
     this.textInputLayout = textInputLayout;
     this.textInputLayout2 = textInputLayout2;
-    this.textView2 = textView2;
   }
 
   @Override
@@ -194,16 +189,10 @@ public final class ActivityRegisterationFormBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
-        break missingId;
-      }
-
       return new ActivityRegisterationFormBinding((ConstraintLayout) rootView, OrgName,
           PasswordConfig, PasswordConfigText, address, editTextNumberSigned,
           editTextTextEmailAddress2, editTextTextPassword2, emalReg, enterRegform, passwordReg,
-          phoneNum, textInputLayout, textInputLayout2, textView2);
+          phoneNum, textInputLayout, textInputLayout2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -6,24 +6,49 @@
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the "MyLocation" functionality.
     -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
-    <application
+     <!--
+     Not working
+      <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    -->
+        <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodHelp">
+
         <activity
-            android:name=".Rest_confirmation"
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity_shelter_form"
             android:exported="true" />
         <activity
-            android:name=".Shelter_form"
+            android:name=".activity_rest_form"
             android:exported="true" />
         <activity
-            android:name=".rest_form"
+            android:name=".activity_rest_confirmation"
             android:exported="true" />
+        <activity
+            android:name=".activity_registeration_form"
+            android:exported="true" />
+        <activity
+            android:name=".activity_login_reg"
+            android:exported="true" />
+        <activity
+            android:name=".activity_login_form"
+            android:exported="true" />
+
+
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -36,16 +61,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".MapsActivity"
             android:exported="true">
