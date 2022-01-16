@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.foodhelp.R;
 import java.lang.NullPointerException;
@@ -13,15 +14,15 @@ import java.lang.Override;
 
 public final class ActivityMapsBinding implements ViewBinding {
   @NonNull
-  private final View rootView;
+  private final ConstraintLayout rootView;
 
-  private ActivityMapsBinding(@NonNull View rootView) {
+  private ActivityMapsBinding(@NonNull ConstraintLayout rootView) {
     this.rootView = rootView;
   }
 
   @Override
   @NonNull
-  public View getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -46,6 +47,6 @@ public final class ActivityMapsBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    return new ActivityMapsBinding(rootView);
+    return new ActivityMapsBinding((ConstraintLayout) rootView);
   }
 }
