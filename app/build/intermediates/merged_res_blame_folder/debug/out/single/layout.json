@@ -1,10 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\hanlecs\\Documents\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\hanlecs\\Documents\\FoodHelp\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login_form.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_login_form.xml"
     },
     {
-        "merged": "C:\\Users\\hanlecs\\Documents\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps.xml",
-        "source": "C:\\Users\\hanlecs\\Documents\\FoodHelp\\app\\src\\main\\res\\layout\\activity_maps.xml"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_registeration_form.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_registeration_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login_reg.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_login_reg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_front.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_front.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_maps.xml"
     }
 ]
