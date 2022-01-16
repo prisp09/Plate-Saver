@@ -11,10 +11,15 @@
 
     <TextView
         android:id="@+id/portions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
         android:layout_marginTop="160dp"
+        android:backgroundTint="#000000"
+        android:foregroundTint="@color/white"
+        android:gravity="center"
         android:text="What number of portions are available?"
+        android:textSize="16dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,9 +40,14 @@
 
     <TextView
         android:id="@+id/select_options"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
+        android:backgroundTint="#020202"
+        android:foregroundTint="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity="center"
         android:text="Select the available options and add available portions."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,9 +55,14 @@
 
     <TextView
         android:id="@+id/time"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="168dp"
+        android:backgroundTint="#020202"
+        android:foregroundTint="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity="center"
         android:text="Time to be picked up by:"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -68,24 +83,29 @@
 
     <Button
         android:id="@+id/rest_Enter"
-        android:layout_width="213dp"
-        android:layout_height="82dp"
+        android:layout_width="149dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="#000000"
         android:foregroundTint="@color/white"
+        android:text="Enter"
         android:textStyle="bold"
         app:cornerRadius="50dp"
-        android:text="Enter"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTime" />
 
     <CheckBox
         android:id="@+id/meat"
-        android:layout_width="70dp"
+        android:layout_width="87dp"
         android:layout_height="50dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="8dp"
+        android:backgroundTint="#020202"
+        android:foregroundTint="@color/white"
+        android:textSize="15dp"
+        android:gravity="center"
         android:text="Meat"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/select_options" />
@@ -96,16 +116,24 @@
         android:layout_height="50dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="8dp"
+        android:backgroundTint="#020202"
+        android:foregroundTint="@color/white"
+        android:textSize="15dp"
+        android:gravity="center"
         android:text="Vegetarian"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/meat" />
 
     <CheckBox
         android:id="@+id/vegan"
-        android:layout_width="81dp"
+        android:layout_width="86dp"
         android:layout_height="50dp"
         android:layout_marginStart="64dp"
         android:layout_marginTop="8dp"
+        android:backgroundTint="#020202"
+        android:foregroundTint="@color/white"
+        android:textSize="15dp"
+        android:gravity="center"
         android:text="Vegan"
         app:layout_constraintStart_toEndOf="@+id/meat_portion"
         app:layout_constraintTop_toBottomOf="@+id/select_options" />
@@ -154,6 +182,10 @@
         android:layout_height="50dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="8dp"
+        android:backgroundTint="#020202"
+        android:foregroundTint="@color/white"
+        android:textSize="15dp"
+        android:gravity="center"
         android:text="Halal"
         app:layout_constraintStart_toEndOf="@+id/veg_portion"
         app:layout_constraintTop_toBottomOf="@+id/vegan" />

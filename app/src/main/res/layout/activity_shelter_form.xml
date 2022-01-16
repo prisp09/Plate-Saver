@@ -11,10 +11,15 @@
     <TextView
         android:id="@+id/Needed"
         android:layout_width="240dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="132dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#020202"
+        android:foregroundTint="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
         android:text="How many total number of portions do you need?"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,11 +28,11 @@
         android:layout_width="92dp"
         android:layout_height="48dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="120dp"
         android:ems="10"
         android:inputType="numberSigned"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/Needed"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -38,6 +43,10 @@
         android:layout_height="52dp"
         android:layout_marginStart="84dp"
         android:layout_marginTop="48dp"
+        android:backgroundTint="#020202"
+        android:foregroundTint="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
         android:text="Meat
 "
         app:layout_constraintStart_toStartOf="parent"
@@ -47,8 +56,8 @@
         android:id="@+id/meat_needed_portions"
         android:layout_width="65dp"
         android:layout_height="51dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
         android:ems="10"
         android:inputType="numberSigned"
         app:layout_constraintStart_toEndOf="@+id/m"
@@ -61,6 +70,10 @@
         android:layout_height="52dp"
         android:layout_marginStart="84dp"
         android:layout_marginTop="16dp"
+        android:backgroundTint="#020202"
+        android:foregroundTint="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
         android:text="Vegetarian
 "
         app:layout_constraintStart_toStartOf="parent"
@@ -72,6 +85,10 @@
         android:layout_height="52dp"
         android:layout_marginStart="84dp"
         android:layout_marginTop="12dp"
+        android:backgroundTint="#020202"
+        android:foregroundTint="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
         android:text="Vegan
 "
         app:layout_constraintStart_toStartOf="parent"
@@ -83,6 +100,10 @@
         android:layout_height="52dp"
         android:layout_marginStart="84dp"
         android:layout_marginTop="16dp"
+        android:backgroundTint="#020202"
+        android:foregroundTint="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
         android:text="Halal
 "
         app:layout_constraintStart_toStartOf="parent"
@@ -128,9 +149,13 @@
         android:id="@+id/pick_time"
         android:layout_width="124dp"
         android:layout_height="43dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#020202"
+        android:foregroundTint="@color/white"
         android:text="Pick up time:"
+        android:textSize="16dp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/h" />
 
@@ -138,10 +163,11 @@
         android:id="@+id/editTextTime2"
         android:layout_width="180dp"
         android:layout_height="48dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="44dp"
         android:ems="10"
         android:inputType="time"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
         app:layout_constraintStart_toEndOf="@+id/pick_time"
         app:layout_constraintTop_toBottomOf="@+id/halal_needed_portions"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -152,14 +178,13 @@
         android:layout_height="82dp"
         android:backgroundTint="#000000"
         android:foregroundTint="@color/white"
+        android:text="Request"
         android:textStyle="bold"
         app:cornerRadius="50dp"
-        android:text="Request"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTime2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.397" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
