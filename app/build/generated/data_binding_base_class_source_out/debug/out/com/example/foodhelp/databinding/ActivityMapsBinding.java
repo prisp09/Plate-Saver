@@ -5,10 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.foodhelp.R;
@@ -18,10 +20,19 @@ import java.lang.String;
 
 public final class ActivityMapsBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
   public final LinearLayout linearLayout2;
+
+  @NonNull
+  public final EditText locationSearch;
+
+  @NonNull
+  public final ImageButton nearbyRestaurant;
+
+  @NonNull
+  public final ImageButton searchIcon;
 
   @NonNull
   public final Button zoomIn;
@@ -29,17 +40,21 @@ public final class ActivityMapsBinding implements ViewBinding {
   @NonNull
   public final Button zoomOut;
 
-  private ActivityMapsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LinearLayout linearLayout2, @NonNull Button zoomIn, @NonNull Button zoomOut) {
+  private ActivityMapsBinding(@NonNull RelativeLayout rootView, @NonNull LinearLayout linearLayout2,
+      @NonNull EditText locationSearch, @NonNull ImageButton nearbyRestaurant,
+      @NonNull ImageButton searchIcon, @NonNull Button zoomIn, @NonNull Button zoomOut) {
     this.rootView = rootView;
     this.linearLayout2 = linearLayout2;
+    this.locationSearch = locationSearch;
+    this.nearbyRestaurant = nearbyRestaurant;
+    this.searchIcon = searchIcon;
     this.zoomIn = zoomIn;
     this.zoomOut = zoomOut;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -70,6 +85,24 @@ public final class ActivityMapsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.location_search;
+      EditText locationSearch = ViewBindings.findChildViewById(rootView, id);
+      if (locationSearch == null) {
+        break missingId;
+      }
+
+      id = R.id.nearby_restaurant;
+      ImageButton nearbyRestaurant = ViewBindings.findChildViewById(rootView, id);
+      if (nearbyRestaurant == null) {
+        break missingId;
+      }
+
+      id = R.id.searchIcon;
+      ImageButton searchIcon = ViewBindings.findChildViewById(rootView, id);
+      if (searchIcon == null) {
+        break missingId;
+      }
+
       id = R.id.zoomIn;
       Button zoomIn = ViewBindings.findChildViewById(rootView, id);
       if (zoomIn == null) {
@@ -82,7 +115,8 @@ public final class ActivityMapsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMapsBinding((ConstraintLayout) rootView, linearLayout2, zoomIn, zoomOut);
+      return new ActivityMapsBinding((RelativeLayout) rootView, linearLayout2, locationSearch,
+          nearbyRestaurant, searchIcon, zoomIn, zoomOut);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -36,6 +36,10 @@
         "source": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
+        "merged": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/merged_res/debug/mipmap-hdpi_search.png.flat",
+        "source": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/src/main/res/mipmap-hdpi/search.png"
+    },
+    {
         "merged": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/merged_res/debug/layout_activity_registeration_form.xml.flat",
         "source": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/src/main/res/layout/activity_registeration_form.xml"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/merged_res/debug/mipmap-hdpi_restaurant.png.flat",
+        "source": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/src/main/res/mipmap-hdpi/restaurant.png"
     },
     {
         "merged": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",

@@ -1,17 +1,17 @@
+com/example/foodhelp/MainActivity.java
+ com.example.foodhelp.MainActivity
+com/example/foodhelp/BuildConfig.java
+ com.example.foodhelp.BuildConfig
 com/example/foodhelp/databinding/ActivityMainBinding.java
  com.example.foodhelp.databinding.ActivityMainBinding
 com/example/foodhelp/databinding/ActivityLoginRegBinding.java
  com.example.foodhelp.databinding.ActivityLoginRegBinding
-com/example/foodhelp/MainActivity.java
- com.example.foodhelp.MainActivity
 com/example/foodhelp/MyLocationLayerActivity.java
  com.example.foodhelp.MyLocationLayerActivity
 com/example/foodhelp/databinding/ActivityMapsBinding.java
  com.example.foodhelp.databinding.ActivityMapsBinding
 com/example/foodhelp/databinding/ActivityRegisterationFormBinding.java
  com.example.foodhelp.databinding.ActivityRegisterationFormBinding
-com/example/foodhelp/BuildConfig.java
- com.example.foodhelp.BuildConfig
 com/example/foodhelp/PermissionUtils.java
  com.example.foodhelp.PermissionUtils
  com.example.foodhelp.PermissionUtils$PermissionDeniedDialog
