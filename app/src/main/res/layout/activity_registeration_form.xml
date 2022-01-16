@@ -182,12 +182,14 @@
         android:ems="10"
         android:inputType="textPersonName"
 
+        android:minHeight="48dp"
         android:textColor="#919191"
         android:textColorHint="#807F7F"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toEndOf="@+id/Org_Name"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -196,12 +198,14 @@
         android:ems="10"
         android:inputType="textPersonName"
 
+        android:minHeight="48dp"
         android:textColor="#888888"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toEndOf="@+id/address"
         app:layout_constraintTop_toBottomOf="@+id/Org_Name_entered"
-        app:layout_constraintVertical_bias="0.468" />
+        app:layout_constraintVertical_bias="0.468"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
