@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/shefanawar/.gradle/caches/transforms-3/86b96bcd087aaa2eeb5570602e279ec1/transformed/appcompat-1.2.0/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\86b96bcd087aaa2eeb5570602e279ec1\\transformed\\appcompat-1.2.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

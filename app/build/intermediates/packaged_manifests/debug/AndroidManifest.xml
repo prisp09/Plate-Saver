@@ -7,7 +7,6 @@
     <uses-sdk
         android:minSdkVersion="30"
         android:targetSdkVersion="32" />
-
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -34,7 +33,12 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.FoodHelp" >
-
+        <activity
+            android:name="com.example.foodhelp.Shelter_form"
+            android:exported="true" />
+        <activity
+            android:name="com.example.foodhelp.rest_form"
+            android:exported="true" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
