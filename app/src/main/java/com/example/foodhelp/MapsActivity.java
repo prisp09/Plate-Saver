@@ -82,7 +82,7 @@ public class MapsActivity extends AppCompatActivity
         } else {
             // Permission was denied. Display an error message
             // Display the missing permission error dialog when the fragments resume.
-            permissionDenied = true;
+            permissionDenied = false;
         }
     }
 
