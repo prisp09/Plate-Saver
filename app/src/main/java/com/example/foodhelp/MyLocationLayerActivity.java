@@ -36,6 +36,7 @@ class MyLocationLayerActivity extends AppCompatActivity
         map.setMyLocationEnabled(true);
         map.setOnMyLocationButtonClickListener(this);
         map.setOnMyLocationClickListener(this);
+
     }
 
     @Override

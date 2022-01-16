@@ -19,7 +19,7 @@ com/example/foodhelp/PermissionUtils.java
  com.example.foodhelp.PermissionUtils$RationaleDialog$1
 com/example/foodhelp/databinding/ActivityLoginFormBinding.java
  com.example.foodhelp.databinding.ActivityLoginFormBinding
-com/example/foodhelp/databinding/ActivityFrontBinding.java
- com.example.foodhelp.databinding.ActivityFrontBinding
 com/example/foodhelp/MapsActivity.java
  com.example.foodhelp.MapsActivity
+com/example/foodhelp/databinding/ActivityFrontBinding.java
+ com.example.foodhelp.databinding.ActivityFrontBinding
