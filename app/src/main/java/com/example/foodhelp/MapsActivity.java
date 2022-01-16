@@ -90,7 +90,7 @@ public class MapsActivity extends AppCompatActivity
 
     public void onZoom(View view) {
         if (view.getId() == R.id.zoomIn) {
-          mMap.animateCamera(CameraUpdateFactory.zoomIn());
+            mMap.animateCamera(CameraUpdateFactory.zoomIn());
         }
         if (view.getId() == R.id.zoomOut) {
             mMap.animateCamera(CameraUpdateFactory.zoomOut());
