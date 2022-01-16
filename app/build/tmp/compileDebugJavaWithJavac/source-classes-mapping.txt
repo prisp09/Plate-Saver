@@ -1,4 +1,15 @@
-com/example/foodhelp/activity_front.java
- com.example.foodhelp.activity_front
- com.example.foodhelp.activity_front$1
- com.example.foodhelp.activity_front$2
+com/example/foodhelp/databinding/ActivityMainBinding.java
+ com.example.foodhelp.databinding.ActivityMainBinding
+com/example/foodhelp/MyLocationLayerActivity.java
+ com.example.foodhelp.MyLocationLayerActivity
+com/example/foodhelp/databinding/ActivityMapsBinding.java
+ com.example.foodhelp.databinding.ActivityMapsBinding
+com/example/foodhelp/BuildConfig.java
+ com.example.foodhelp.BuildConfig
+com/example/foodhelp/PermissionUtils.java
+ com.example.foodhelp.PermissionUtils
+ com.example.foodhelp.PermissionUtils$PermissionDeniedDialog
+ com.example.foodhelp.PermissionUtils$RationaleDialog
+ com.example.foodhelp.PermissionUtils$RationaleDialog$1
+com/example/foodhelp/MapsActivity.java
+ com.example.foodhelp.MapsActivity
