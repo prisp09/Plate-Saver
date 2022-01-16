@@ -17,15 +17,17 @@ com/example/foodhelp/databinding/ActivityLoginRegBinding.java
  com.example.foodhelp.databinding.ActivityLoginRegBinding
 com/example/foodhelp/MainActivity.java
  com.example.foodhelp.MainActivity
+ com.example.foodhelp.MainActivity$1
+ com.example.foodhelp.MainActivity$2
 com/example/foodhelp/databinding/ActivityMapsBinding.java
  com.example.foodhelp.databinding.ActivityMapsBinding
-com/example/foodhelp/databinding/ActivityRestConfirmationBinding.java
- com.example.foodhelp.databinding.ActivityRestConfirmationBinding
 com/example/foodhelp/databinding/ActivityShelterFormBinding.java
  com.example.foodhelp.databinding.ActivityShelterFormBinding
+com/example/foodhelp/databinding/ActivityRestConfirmationBinding.java
+ com.example.foodhelp.databinding.ActivityRestConfirmationBinding
 com/example/foodhelp/databinding/ActivityRegisterationFormBinding.java
  com.example.foodhelp.databinding.ActivityRegisterationFormBinding
-com/example/foodhelp/databinding/ActivityFrontBinding.java
- com.example.foodhelp.databinding.ActivityFrontBinding
 com/example/foodhelp/MapsActivity.java
  com.example.foodhelp.MapsActivity
+com/example/foodhelp/databinding/ActivityFrontBinding.java
+ com.example.foodhelp.databinding.ActivityFrontBinding

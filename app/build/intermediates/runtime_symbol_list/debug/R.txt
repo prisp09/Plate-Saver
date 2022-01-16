@@ -2516,7 +2516,7 @@ int string shelter 0x7f0e0081
 int string status_bar_notification_info_overflow 0x7f0e0082
 int string string_login 0x7f0e0083
 int string string_register 0x7f0e0084
-int string title_activity_maps 0x7f0e0085
+int string title_activity_main 0x7f0e0088
 int string zoomin 0x7f0e0086
 int string zoomout 0x7f0e0087
 int style AlertDialog_AppCompat 0x7f0f0000
