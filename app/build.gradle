@@ -30,6 +30,7 @@ android {
     buildFeatures {
         viewBinding true
     }
+    compileSdkVersion 31
 }
 
 dependencies {

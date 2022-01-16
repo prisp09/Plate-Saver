@@ -1,38 +1,38 @@
 [
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_shelter_form.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_shelter_form.xml"
+        "merged": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_maps.xml",
+        "source": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/src/main/res/layout/activity_maps.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_rest_confirmation.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_rest_confirmation.xml"
+        "merged": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login_reg.xml",
+        "source": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/src/main/res/layout/activity_login_reg.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_rest_form.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_rest_form.xml"
+        "merged": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login_form.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_login_form.xml"
+        "merged": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_front.xml",
+        "source": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/src/main/res/layout/activity_front.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_registeration_form.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_registeration_form.xml"
+        "merged": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_registeration_form.xml",
+        "source": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/src/main/res/layout/activity_registeration_form.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login_form.xml",
+        "source": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/src/main/res/layout/activity_login_form.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login_reg.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_login_reg.xml"
+        "merged": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_rest_form.xml",
+        "source": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/src/main/res/layout/activity_rest_form.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_front.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_front.xml"
+        "merged": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_rest_confirmation.xml",
+        "source": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/src/main/res/layout/activity_rest_confirmation.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_maps.xml"
+        "merged": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_shelter_form.xml",
+        "source": "/Users/shefanawar/Documents/GitHub/FoodHelp/app/src/main/res/layout/activity_shelter_form.xml"
     }
 ]
