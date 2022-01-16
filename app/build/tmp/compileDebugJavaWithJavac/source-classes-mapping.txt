@@ -1,13 +1,11 @@
-com/example/foodhelp/BuildConfig.java
- com.example.foodhelp.BuildConfig
-com/example/foodhelp/activity_shelter_form.java
- com.example.foodhelp.activity_shelter_form
 com/example/foodhelp/activity_login_reg.java
  com.example.foodhelp.activity_login_reg
  com.example.foodhelp.activity_login_reg$1
  com.example.foodhelp.activity_login_reg$2
 com/example/foodhelp/MyLocationLayerActivity.java
  com.example.foodhelp.MyLocationLayerActivity
+com/example/foodhelp/BuildConfig.java
+ com.example.foodhelp.BuildConfig
 com/example/foodhelp/activity_rest_form.java
  com.example.foodhelp.activity_rest_form
 com/example/foodhelp/databinding/ActivityRestFormBinding.java
@@ -17,6 +15,8 @@ com/example/foodhelp/PermissionUtils.java
  com.example.foodhelp.PermissionUtils$PermissionDeniedDialog
  com.example.foodhelp.PermissionUtils$RationaleDialog
  com.example.foodhelp.PermissionUtils$RationaleDialog$1
+com/example/foodhelp/activity_shelter_form.java
+ com.example.foodhelp.activity_shelter_form
 com/example/foodhelp/databinding/ActivityLoginFormBinding.java
  com.example.foodhelp.databinding.ActivityLoginFormBinding
 com/example/foodhelp/databinding/ActivityMainBinding.java
