@@ -1907,6 +1907,7 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editTextNumberSigned
 id editTextTextEmailAddress2
 id editTextTextPassword2
 id editTextTextPassword3
@@ -1973,6 +1974,7 @@ id light
 id line1
 id line3
 id linear
+id linearLayout2
 id listMode
 id list_item
 id map
@@ -2055,6 +2057,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id phone_num
 id pin
 id position
 id postLayout
@@ -2144,6 +2147,7 @@ id text
 id text2
 id textEnd
 id textInputLayout
+id textInputLayout2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -2188,6 +2192,8 @@ id withinBounds
 id wrap
 id wrap_content
 id zero_corner_chip
+id zoomIn
+id zoomOut
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -2474,6 +2480,8 @@ string status_bar_notification_info_overflow
 string string_login
 string string_register
 string title_activity_maps
+string zoomin
+string zoomout
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

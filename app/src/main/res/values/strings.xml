@@ -18,7 +18,8 @@
     <string name="email">Email</string>
 
     <string name="password">Password</string>
-
+    <string name="zoomin">ZoomIn</string>
+    <string name="zoomout">ZoomOut</string>
 
 
 </resources>
