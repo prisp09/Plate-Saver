@@ -60,8 +60,7 @@
         -->
         <activity
             android:name=".MapsActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"/>
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBg-lCqwPp-wyTj75sImRiiteZ5g2APRd4" />
