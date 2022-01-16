@@ -1,6 +1,6 @@
 package com.example.foodhelp;
 
-import android.location.Location;
+
 import android.os.Bundle;
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -10,18 +10,10 @@ import androidx.annotation.NonNull;
 
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.GoogleMap.OnMyLocationButtonClickListener;
-import com.google.android.gms.maps.GoogleMap.OnMyLocationClickListener;
 import com.google.android.gms.maps.SupportMapFragment;
 import androidx.core.content.ContextCompat;
 import androidx.core.app.ActivityCompat;
 import androidx.appcompat.app.AppCompatActivity;
-
-
-import android.widget.Toast;
-
-
-
 
 
 public class MapsActivity extends AppCompatActivity
@@ -49,7 +41,6 @@ public class MapsActivity extends AppCompatActivity
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         enableMyLocation();
-
     }
 
     private void enableMyLocation() {
