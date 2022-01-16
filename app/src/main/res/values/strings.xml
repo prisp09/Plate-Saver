@@ -4,4 +4,21 @@
     <string name="location_permission_denied">Permission Denied</string>
     <string name="permission_required_toast">Missing Plugin</string>
     <string name="permission_rationale_location">Permission Denied</string>
+
+    <string name="facilitator">facilitator</string>
+    <string name="admin">Admin</string>
+    <string name="shelter">Shelter</string>
+
+    <string name="register">Register</string>
+    <string name="string_register" />
+    <string name="login">Login</string>
+    <string name="string_login" />
+    <string name="login_form">login form</string>
+    <string name="enter">enter</string>
+    <string name="email">Email</string>
+
+    <string name="password">Password</string>
+
+
+
 </resources>
