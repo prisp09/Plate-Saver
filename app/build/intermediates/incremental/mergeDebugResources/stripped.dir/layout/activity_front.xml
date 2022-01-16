@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/collage"
+    android:background="@drawable/collage4"
     tools:context=".activity_front"
      >
 
@@ -26,17 +26,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.519" />
 
     <Button
         android:id="@+id/Shelter"
         android:layout_width="213dp"
         android:layout_height="82dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
         android:backgroundTint="@color/black"
-        android:textStyle="bold"
         android:foregroundTint="@color/white"
         android:text="@string/shelter"
+        android:textStyle="bold"
         app:cornerRadius="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,14 +47,14 @@
         android:layout_width="213dp"
         android:layout_height="80dp"
         android:backgroundTint="@color/black"
-        android:textStyle="bold"
         android:foregroundTint="@color/white"
-        android:text="@string/admin"
+        android:text="More info"
+        android:textStyle="bold"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Shelter"
-        app:layout_constraintVertical_bias="0.502" />
+        app:layout_constraintVertical_bias="0.501" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,8 +4,16 @@
         "source": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\build\\intermediates\\merged_res\\debug\\drawable_collage4.png.flat",
+        "source": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\src\\main\\res\\drawable\\collage4.png"
+    },
+    {
         "merged": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\build\\intermediates\\merged_res\\debug\\drawable_collage2.png.flat",
+        "source": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\src\\main\\res\\drawable\\collage2.png"
     },
     {
         "merged": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_rest_confirmation.xml.flat",
@@ -58,6 +66,14 @@
     {
         "merged": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\build\\intermediates\\merged_res\\debug\\drawable_collage3.png.flat",
+        "source": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\src\\main\\res\\drawable\\collage3.png"
+    },
+    {
+        "merged": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\build\\intermediates\\merged_res\\debug\\drawable_collage.png.flat",
+        "source": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\src\\main\\res\\drawable\\collage.png"
     },
     {
         "merged": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
