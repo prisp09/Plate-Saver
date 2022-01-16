@@ -1155,7 +1155,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="string_login"/>
     <string name="string_register"/>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
     <string name="zoomin">ZoomIn</string>
     <string name="zoomout">ZoomOut</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

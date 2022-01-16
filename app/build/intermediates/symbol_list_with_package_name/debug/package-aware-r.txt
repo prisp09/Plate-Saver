@@ -2521,7 +2521,7 @@ string shelter
 string status_bar_notification_info_overflow
 string string_login
 string string_register
-string title_activity_main
+string title_activity_maps
 string zoomin
 string zoomout
 style AlertDialog_AppCompat

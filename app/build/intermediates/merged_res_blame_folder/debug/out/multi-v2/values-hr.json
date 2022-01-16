@@ -4,23 +4,6 @@
             "outputFile": "C:\\Users\\psp09\\Desktop\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\psp09\\.gradle\\caches\\transforms-3\\6de673910295400ccf30f9d69e89288c\\transformed\\jetified-play-services-basement-17.2.1\\res\\values-hr\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "190",
-                        "endOffsets": "437"
-                    },
-                    "to": {
-                        "startLines": "46",
-                        "startColumns": "4",
-                        "startOffsets": "4601",
-                        "endColumns": "190",
-                        "endOffsets": "4787"
-                    }
-                },
-                {
                     "source": "C:\\Users\\psp09\\.gradle\\caches\\transforms-3\\44de68acdb076a306dfaa3d81d8e786c\\transformed\\jetified-play-services-base-17.0.0\\res\\values-hr\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -88,6 +71,23 @@
                         "endLines": "6,34,35,36,37,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105",
                         "endColumns": "12,84,95,129,83,67,95,67,62,107,65,55,70,59,53,125,56,61,53,74,133,84,80,106,83,85,90,66,65,73,77,87,71,76,79,73,92,72,91,95,73,75,95,51,66,86,86,61,63,62,105,100,96,103,79",
                         "endOffsets": "320,3116,3212,3342,3426,6170,6266,6334,6397,6505,6571,6627,6698,6758,6812,6938,6995,7057,7111,7186,7320,7405,7486,7593,7677,7763,7854,7921,7987,8061,8139,8227,8299,8376,8456,8530,8623,8696,8788,8884,8958,9034,9130,9182,9249,9336,9423,9485,9549,9612,9718,9819,9916,10020,10100"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\psp09\\.gradle\\caches\\transforms-3\\56a3ccf1329d75c8ceabe437951abe4f\\transformed\\jetified-play-services-basement-17.0.0\\res\\values-hr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "190",
+                        "endOffsets": "437"
+                    },
+                    "to": {
+                        "startLines": "46",
+                        "startColumns": "4",
+                        "startOffsets": "4601",
+                        "endColumns": "190",
+                        "endOffsets": "4787"
                     }
                 }
             ]

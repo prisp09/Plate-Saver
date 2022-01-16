@@ -1,10 +1,8 @@
-#Sun Jan 16 03:20:34 EST 2022
-path.4=classes2.dex
+#Sun Jan 16 03:38:44 EST 2022
 path.3=8/classes.dex
 path.2=1/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.4=C\:\\Users\\psp09\\Desktop\\FoodHelp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 base.3=C\:\\Users\\psp09\\Desktop\\FoodHelp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
 base.2=C\:\\Users\\psp09\\Desktop\\FoodHelp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
 base.1=C\:\\Users\\psp09\\Desktop\\FoodHelp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
@@ -13,4 +11,3 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-renamed.4=classes5.dex
