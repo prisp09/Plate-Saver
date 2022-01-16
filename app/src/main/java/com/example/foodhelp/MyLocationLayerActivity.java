@@ -51,6 +51,7 @@ class MyLocationLayerActivity extends AppCompatActivity
         // Return false so that we don't consume the event and the default behavior still occurs
         // (the camera animates to the user's current position).
         return false;
+
     }
 }
 
