@@ -95,6 +95,7 @@ public class MapsActivity extends AppCompatActivity
         if (view.getId() == R.id.zoomOut) {
             mMap.animateCamera(CameraUpdateFactory.zoomOut());
         }
+
     }
 
 
