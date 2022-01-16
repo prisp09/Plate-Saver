@@ -4,26 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#352F2F"
+    android:backgroundTint="#CBC5C3BF"
     tools:context=".activity_login_reg">
 
     <Button
         android:id="@+id/Login2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="213dp"
+        android:layout_height="82dp"
+        android:textStyle="bold"
+        app:cornerRadius="50dp"
+        android:layout_marginTop="252dp"
+        android:backgroundTint="#000000"
+        android:foregroundTint="@color/white"
         android:text="Login"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/Register"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/Register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="72dp"
+        android:layout_width="213dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#000000"
+        android:foregroundTint="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="50dp"
         android:text="Register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Login2"
+        app:layout_constraintVertical_bias="0.177" />
 </androidx.constraintlayout.widget.ConstraintLayout>

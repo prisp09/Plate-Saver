@@ -4,45 +4,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#352F2F"
+    android:backgroundTint="#CBC5C3BF"
     tools:context=".activity_login_form">
 
     <TextView
         android:id="@+id/email"
-        android:layout_width="62dp"
-        android:layout_height="23dp"
+        android:layout_width="112dp"
+        android:layout_height="43dp"
         android:layout_marginStart="44dp"
         android:layout_marginTop="260dp"
+        android:backgroundTint="#9C1111"
+        android:foregroundTint="@color/white"
         android:text="@string/email"
+        android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
+        android:layout_width="112dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="#000000"
+        android:foregroundTint="@color/white"
         android:text="@string/password"
+        android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email"
-        app:layout_constraintVertical_bias="0.17" />
+        app:layout_constraintVertical_bias="0.101" />
 
     <Button
         android:id="@+id/Enter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="130dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#000000"
+        android:foregroundTint="@color/white"
         android:text="@string/enter"
+        android:textStyle="bold"
+        app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword3" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword3"
+        app:layout_constraintVertical_bias="0.202" />
 
     <EditText
         android:id="@+id/enter_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="248dp"
+        android:layout_marginTop="260dp"
         android:layout_marginEnd="48dp"
+        android:backgroundTint="#914F4F"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
@@ -55,12 +73,12 @@
         android:id="@+id/editTextTextPassword3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="36dp"
         android:ems="10"
         android:inputType="textPassword"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toEndOf="@+id/password"
         app:layout_constraintTop_toBottomOf="@+id/enter_email"
         tools:ignore="SpeakableTextPresentCheck" />

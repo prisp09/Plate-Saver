@@ -5,7 +5,9 @@
     android:id="@+id/entered_time"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".rest_form">
+    android:background="#352F2F"
+    android:backgroundTint="#CBC5C3BF"
+    tools:context=".activity_rest_form">
 
     <TextView
         android:id="@+id/portions"

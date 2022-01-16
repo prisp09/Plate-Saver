@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -25,11 +26,15 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final Button facilitator;
 
+  @NonNull
+  public final ImageView imageView2;
+
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button Shelter,
-      @NonNull Button facilitator) {
+      @NonNull Button facilitator, @NonNull ImageView imageView2) {
     this.rootView = rootView;
     this.Shelter = Shelter;
     this.facilitator = facilitator;
+    this.imageView2 = imageView2;
   }
 
   @Override
@@ -71,7 +76,13 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, Shelter, facilitator);
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, Shelter, facilitator, imageView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
