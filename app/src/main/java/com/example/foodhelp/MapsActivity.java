@@ -1,10 +1,16 @@
 package com.example.foodhelp;
 
 
+import android.graphics.BitmapFactory;
+import android.location.Address;
+import android.location.Geocoder;
 import android.os.Bundle;
 import android.Manifest;
 import android.content.pm.PackageManager;
+import android.text.TextUtils;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
@@ -13,9 +19,17 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
 import androidx.core.content.ContextCompat;
 import androidx.core.app.ActivityCompat;
 import androidx.appcompat.app.AppCompatActivity;
+
+import java.io.IOException;
+import java.util.List;
 
 
 public class MapsActivity extends AppCompatActivity
@@ -98,11 +112,58 @@ public class MapsActivity extends AppCompatActivity
         }
 
     }
+    public void onClick(View view){
+        {
+        switch (view.getId())
+        {
+            case R.id.searchIcon:
+                EditText addressField =(EditText) findViewById(R.id.location_search);
+                String address = addressField.getText().toString();
+
+                List<Address>addressList = null;
+                MarkerOptions userMakerOptions=  new MarkerOptions();
+
+                if (!TextUtils.isEmpty(address)) {
+                    Geocoder geocoder = new Geocoder(this);
+
+                    try {
+                        addressList = geocoder.getFromLocationName(address, 6);
+                        if (addressList != null) {
+                            for (int i = 0; i < addressList.size(); i++) {
+                                Address userAddress = addressList.get(i);
+                                LatLng latLng = new LatLng(userAddress.getLatitude(), userAddress.getLongitude());
+                                userMakerOptions.position(latLng);
+                                userMakerOptions.title(address);
+                                userMakerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
+
+                                mMap.addMarker(userMakerOptions);
+                                mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+                                mMap.animateCamera(CameraUpdateFactory.zoomTo(12));
+                            }
+                        }
+                        else {
+                            Toast.makeText(this, "Location not found" , Toast.LENGTH_SHORT).show();
+                        }
+
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+                    else
+                    {
+                        Toast.makeText(this, "Location found" , Toast.LENGTH_SHORT).show();
+                    }
+
+                    break;
+                  }
+                }
+        }
+        }
 
 
 
 
 
- }
+
 
 

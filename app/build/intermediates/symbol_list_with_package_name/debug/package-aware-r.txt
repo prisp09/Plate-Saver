@@ -1991,6 +1991,7 @@ id linear
 id linearLayout2
 id listMode
 id list_item
+id location_search
 id m
 id map
 id masked
@@ -2051,6 +2052,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id navigation_header_container
+id nearby_restaurant
 id never
 id noScroll
 id none
@@ -2106,6 +2108,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchIcon
 id search_badge
 id search_bar
 id search_button
@@ -2379,6 +2382,8 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap restaurant
+mipmap search
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -2513,7 +2518,7 @@ string shelter
 string status_bar_notification_info_overflow
 string string_login
 string string_register
-string title_activity_maps
+string title_activity_main
 string zoomin
 string zoomout
 style AlertDialog_AppCompat
