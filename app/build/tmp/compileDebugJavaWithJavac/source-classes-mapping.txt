@@ -1,5 +1,3 @@
-com/example/foodhelp/BuildConfig.java
- com.example.foodhelp.BuildConfig
 com/example/foodhelp/activity_login_reg.java
  com.example.foodhelp.activity_login_reg
  com.example.foodhelp.activity_login_reg$1
@@ -14,8 +12,12 @@ com/example/foodhelp/activity_front.java
  com.example.foodhelp.activity_front
  com.example.foodhelp.activity_front$1
  com.example.foodhelp.activity_front$2
+ com.example.foodhelp.activity_front$3
+ com.example.foodhelp.activity_front$4
 com/example/foodhelp/Shelter_form.java
  com.example.foodhelp.Shelter_form
+com/example/foodhelp/BuildConfig.java
+ com.example.foodhelp.BuildConfig
 com/example/foodhelp/databinding/ActivityRestFormBinding.java
  com.example.foodhelp.databinding.ActivityRestFormBinding
 com/example/foodhelp/PermissionUtils.java

@@ -1675,6 +1675,7 @@ int drawable btn_radio_off_mtrl 0x7f070063
 int drawable btn_radio_off_to_on_mtrl_animation 0x7f070064
 int drawable btn_radio_on_mtrl 0x7f070065
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f070066
+int drawable collage 0x7f0700ad
 int drawable common_full_open_on_phone 0x7f070067
 int drawable common_google_signin_btn_icon_dark 0x7f070068
 int drawable common_google_signin_btn_icon_dark_focused 0x7f070069
