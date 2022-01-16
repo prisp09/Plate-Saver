@@ -4,6 +4,10 @@
         "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_shelter_form.xml"
     },
     {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_rest_confirmation.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_rest_confirmation.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_rest_form.xml",
         "source": "C:\\Users\\User\\Documents\\GitHub\\FoodHelp\\app\\src\\main\\res\\layout\\activity_rest_form.xml"
     },
