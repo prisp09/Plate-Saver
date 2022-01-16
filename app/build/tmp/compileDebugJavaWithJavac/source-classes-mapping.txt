@@ -39,6 +39,7 @@ com/example/foodhelp/databinding/ActivityRegisterationFormBinding.java
  com.example.foodhelp.databinding.ActivityRegisterationFormBinding
 com/example/foodhelp/activity_login_form.java
  com.example.foodhelp.activity_login_form
+ com.example.foodhelp.activity_login_form$1
 com/example/foodhelp/MapsActivity.java
  com.example.foodhelp.MapsActivity
 com/example/foodhelp/activity_rest_confirmation.java

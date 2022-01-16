@@ -8,6 +8,8 @@ public class activity_shelter_form extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_shelter_form);
     }
 }

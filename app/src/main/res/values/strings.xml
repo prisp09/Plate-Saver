@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FoodHelp</string>
+    <string name="app_name">Plate Saver</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="location_permission_denied">Permission Denied</string>
     <string name="permission_required_toast">Missing Plugin</string>
