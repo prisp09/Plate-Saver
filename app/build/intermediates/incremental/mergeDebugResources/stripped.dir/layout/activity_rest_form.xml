@@ -11,7 +11,7 @@
         android:id="@+id/portions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="176dp"
+        android:layout_marginTop="160dp"
         android:text="What number of portions are available?"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -110,7 +110,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="numberSigned"
         app:layout_constraintStart_toEndOf="@+id/veg"
@@ -147,10 +147,11 @@
         android:id="@+id/halal"
         android:layout_width="102dp"
         android:layout_height="50dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="8dp"
         android:text="Halal"
-        app:layout_constraintTop_toBottomOf="@+id/vegan"
-        tools:layout_editor_absoluteX="222dp" />
+        app:layout_constraintStart_toEndOf="@+id/veg_portion"
+        app:layout_constraintTop_toBottomOf="@+id/vegan" />
 
     <EditText
         android:id="@+id/halal_portion"

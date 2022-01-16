@@ -1911,6 +1911,7 @@ id editTextNumberSigned
 id editTextTextEmailAddress2
 id editTextTextPassword2
 id editTextTextPassword3
+id editTextTime
 id edit_query
 id elastic
 id email
@@ -1921,6 +1922,7 @@ id enterAlways
 id enterAlwaysCollapsed
 id enter_email
 id enter_regform
+id entered_time
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1944,6 +1946,8 @@ id group_divider
 id grouping
 id groups
 id guideline
+id halal
+id halal_portion
 id header_title
 id hideable
 id home
@@ -1998,6 +2002,8 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id meat
+id meat_portion
 id message
 id middle
 id mini
@@ -2059,6 +2065,8 @@ id peekHeight
 id percent
 id phone_num
 id pin
+id portion_num
+id portions
 id position
 id postLayout
 id progress_circular
@@ -2066,6 +2074,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id rest_Enter
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2095,6 +2104,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id select_options
 id selected
 id selection_type
 id shortcut
@@ -2184,6 +2194,10 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id veg
+id veg_portion
+id vegan
+id vegan_portion
 id view_offset_helper
 id visible
 id wide
@@ -2261,6 +2275,8 @@ layout activity_login_reg
 layout activity_main
 layout activity_maps
 layout activity_registeration_form
+layout activity_rest_form
+layout activity_shelter_form
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
