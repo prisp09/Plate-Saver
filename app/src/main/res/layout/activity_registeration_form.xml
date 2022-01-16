@@ -24,20 +24,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout"
-        android:layout_width="210dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="100dp"
-        android:hint="Organization"
-        android:textColorHint="#000000"
-        app:expandedHintEnabled="true"
-        app:hintEnabled="true"
-        app:hintTextColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Org_Name"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/address"
         android:layout_width="135dp"
@@ -56,18 +42,17 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
+        android:layout_width="210dp"
+        android:layout_height="49dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toEndOf="@+id/emal_reg"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteY="226dp" />
 
     <TextView
         android:id="@+id/emal_reg"
@@ -154,26 +139,12 @@
         android:foregroundTint="@color/white"
         android:textStyle="bold"
         app:cornerRadius="50dp"
-        android:text="Button"
+        android:text="Register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Password_config"
         app:layout_constraintVertical_bias="0.372" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout2"
-        android:layout_width="209dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="16dp"
-        android:hint="Address"
-        app:hintTextColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
-        app:layout_constraintStart_toEndOf="@+id/address"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
-
-    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/phone_num"
@@ -202,5 +173,35 @@
         app:layout_constraintStart_toEndOf="@+id/password_reg"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/Org_Name_entered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:textColor="#919191"
+        android:textColorHint="#807F7F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toEndOf="@+id/Org_Name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:textColor="#888888"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toEndOf="@+id/address"
+        app:layout_constraintTop_toBottomOf="@+id/Org_Name_entered"
+        app:layout_constraintVertical_bias="0.468" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

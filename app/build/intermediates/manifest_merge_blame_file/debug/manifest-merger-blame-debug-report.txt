@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="30"
-8-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml
+8-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml
+9-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml
 10    <!--
 11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
 12         Google Maps Android API v2, but you must specify either coarse or fine
@@ -19,98 +19,98 @@
 17      <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 18    -->
 19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-19-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:13:5-81
-19-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:13:22-78
+19-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:13:5-81
+19-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:13:22-78
 20
 21    <!-- Include required permissions for Google Maps API to run. -->
 22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
 23    <uses-permission android:name="android.permission.INTERNET" />
-23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
-23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
 24
 25    <uses-feature
-25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 26        android:glEsVersion="0x00020000"
-26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 27        android:required="true" />
-27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 28
 29    <application
-29-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:14:5-70:19
+29-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:14:5-70:19
 30        android:allowBackup="true"
-30-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:15:9-35
+30-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:15:9-35
 31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-31-->[androidx.core:core:1.3.1] C:\Users\psp09\.gradle\caches\transforms-3\2180cedfa5ac26dfe1550ba973b59f24\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+31-->[androidx.core:core:1.3.1] C:\Users\User\.gradle\caches\transforms-3\2180cedfa5ac26dfe1550ba973b59f24\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
 32        android:debuggable="true"
 33        android:extractNativeLibs="false"
 34        android:icon="@mipmap/ic_launcher"
-34-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:16:9-43
+34-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:16:9-43
 35        android:label="@string/app_name"
-35-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:17:9-41
+35-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:17:9-41
 36        android:roundIcon="@mipmap/ic_launcher_round"
-36-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:18:9-54
+36-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:18:9-54
 37        android:supportsRtl="true"
-37-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:19:9-35
+37-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:19:9-35
 38        android:testOnly="true"
 39        android:theme="@style/Theme.FoodHelp" >
-39-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:20:9-46
+39-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:20:9-46
 40        <activity
-40-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:22:9-31:20
+40-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:22:9-31:20
 41            android:name="com.example.foodhelp.MainActivity"
-41-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:23:13-41
+41-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:23:13-41
 42            android:exported="true"
-42-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:24:13-36
+42-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:24:13-36
 43            android:label="Plate Saver" >
-43-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:25:13-40
+43-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:25:13-40
 44            <intent-filter>
-44-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:26:13-30:29
+44-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:26:13-30:29
 45                <action android:name="android.intent.action.MAIN" />
-45-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:27:17-69
-45-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:27:25-66
+45-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:27:17-69
+45-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:27:25-66
 46
 47                <category android:name="android.intent.category.LAUNCHER" />
-47-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:29:17-77
-47-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:29:27-74
+47-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:29:17-77
+47-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:29:27-74
 48            </intent-filter>
 49        </activity>
 50        <activity
-50-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:33:9-35:39
+50-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:33:9-35:39
 51            android:name="com.example.foodhelp.activity_shelter_form"
-51-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:34:13-50
+51-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:34:13-50
 52            android:exported="true" />
-52-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:35:13-36
+52-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:35:13-36
 53        <activity
-53-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:36:9-38:39
+53-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:36:9-38:39
 54            android:name="com.example.foodhelp.activity_rest_form"
-54-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:37:13-47
+54-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:37:13-47
 55            android:exported="true" />
-55-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:38:13-36
+55-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:38:13-36
 56        <activity
-56-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:39:9-41:39
+56-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:39:9-41:39
 57            android:name="com.example.foodhelp.activity_rest_confirmation"
-57-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:40:13-55
+57-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:40:13-55
 58            android:exported="true" />
-58-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:41:13-36
+58-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:41:13-36
 59        <activity
-59-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:42:9-44:39
+59-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:42:9-44:39
 60            android:name="com.example.foodhelp.activity_registeration_form"
-60-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:43:13-56
+60-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:43:13-56
 61            android:exported="true" />
-61-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:44:13-36
+61-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:44:13-36
 62        <activity
-62-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:45:9-47:39
+62-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:45:9-47:39
 63            android:name="com.example.foodhelp.activity_login_reg"
-63-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:46:13-47
+63-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:46:13-47
 64            android:exported="true" />
-64-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:47:13-36
+64-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:47:13-36
 65        <activity
-65-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:48:9-50:39
+65-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:48:9-50:39
 66            android:name="com.example.foodhelp.activity_login_form"
-66-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:49:13-48
+66-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:49:13-48
 67            android:exported="true" />
-67-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:50:13-36
+67-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:50:13-36
 68
 69        <!--
 70             The API key for Google Maps-based APIs is defined as a string resource.
@@ -121,42 +121,42 @@
 75             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 76        -->
 77        <meta-data
-77-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:61:9-63:71
+77-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:61:9-63:71
 78            android:name="com.google.android.geo.API_KEY"
-78-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:62:13-58
+78-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:62:13-58
 79            android:value="AIzaSyBg-lCqwPp-wyTj75sImRiiteZ5g2APRd4" />
-79-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:63:13-68
+79-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:63:13-68
 80
 81        <activity
-81-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:66:9-69:20
+81-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:66:9-69:20
 82            android:name="com.example.foodhelp.MapsActivity"
-82-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:67:13-41
+82-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:67:13-41
 83            android:exported="true" >
-83-->C:\Users\psp09\Desktop\FoodHelp\app\src\main\AndroidManifest.xml:68:13-36
+83-->C:\Users\User\Documents\GitHub\FoodHelp\app\src\main\AndroidManifest.xml:68:13-36
 84        </activity>
 85        <!-- Needs to be explicitly declared on P+ -->
 86        <uses-library
-86-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+86-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 87            android:name="org.apache.http.legacy"
-87-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+87-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 88            android:required="false" />
-88-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+88-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-3\dfed7d12fc851b37b911806d1def4625\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 89
 90        <activity
-90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\44de68acdb076a306dfaa3d81d8e786c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-3\44de68acdb076a306dfaa3d81d8e786c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\44de68acdb076a306dfaa3d81d8e786c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-3\44de68acdb076a306dfaa3d81d8e786c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 92            android:exported="false"
-92-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\44de68acdb076a306dfaa3d81d8e786c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+92-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-3\44de68acdb076a306dfaa3d81d8e786c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-93-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\44de68acdb076a306dfaa3d81d8e786c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+93-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-3\44de68acdb076a306dfaa3d81d8e786c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 94
 95        <meta-data
-95-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\56a3ccf1329d75c8ceabe437951abe4f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+95-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-3\56a3ccf1329d75c8ceabe437951abe4f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 96            android:name="com.google.android.gms.version"
-96-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\56a3ccf1329d75c8ceabe437951abe4f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+96-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-3\56a3ccf1329d75c8ceabe437951abe4f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 97            android:value="@integer/google_play_services_version" />
-97-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\psp09\.gradle\caches\transforms-3\56a3ccf1329d75c8ceabe437951abe4f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+97-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-3\56a3ccf1329d75c8ceabe437951abe4f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 98    </application>
 99
 100</manifest>
