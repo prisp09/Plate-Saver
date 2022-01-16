@@ -4,10 +4,12 @@ package com.example.foodhelp;
 import android.os.Bundle;
 import android.Manifest;
 import android.content.pm.PackageManager;
+import android.view.View;
+
 import androidx.annotation.NonNull;
 
 
-
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -35,7 +37,6 @@ public class MapsActivity extends AppCompatActivity
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
     }
-
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
@@ -87,5 +88,21 @@ public class MapsActivity extends AppCompatActivity
                 .newInstance(true).show(getSupportFragmentManager(), "dialog");
     }
 
+    public void onZoom(View view) {
+        if (view.getId() == R.id.zoomIn) {
+            mMap.animateCamera(CameraUpdateFactory.zoomIn());
+        }
 
-}
+        if (view.getId() == R.id.zoomOut) {
+            mMap.animateCamera(CameraUpdateFactory.zoomOut());
+        }
+
+    }
+
+
+
+
+
+ }
+
+
