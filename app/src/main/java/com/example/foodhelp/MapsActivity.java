@@ -1,6 +1,7 @@
 package com.example.foodhelp;
 
 
+import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.location.Address;
 import android.location.Geocoder;
@@ -9,7 +10,9 @@ import android.Manifest;
 import android.content.pm.PackageManager;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -45,6 +48,16 @@ public class MapsActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
+
+        ImageButton rest = (ImageButton) findViewById(R.id.nearby_restaurant);
+
+        rest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MapsActivity.this, activity_shelter_form.class));
+            }
+        });
+
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
@@ -155,6 +168,7 @@ public class MapsActivity extends AppCompatActivity
 
                     break;
                   }
+
                 }
         }
         }

@@ -15,7 +15,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        tools:ignore="SpeakableTextPresentCheck"></EditText>
+        android:text="150 John St, Toronto"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:text="150 John St, Toronto"></EditText>
 
     <Button
         android:id="@+id/zoomIn"
